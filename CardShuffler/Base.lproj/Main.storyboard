@@ -18,19 +18,19 @@
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="NY2-kl-JAa">
                                 <rect key="frame" x="0.0" y="215" width="414" height="200"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10C" translatesAutoresizingMaskIntoConstraints="NO" id="uW1-vS-S69">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10C" translatesAutoresizingMaskIntoConstraints="NO" id="uW1-vS-S69" customClass="CardView" customModule="CardShuffler" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="79" height="200"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10C" translatesAutoresizingMaskIntoConstraints="NO" id="8x5-Xz-imF">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10C" translatesAutoresizingMaskIntoConstraints="NO" id="8x5-Xz-imF" customClass="CardView" customModule="CardShuffler" customModuleProvider="target">
                                         <rect key="frame" x="84" y="0.0" width="78.5" height="200"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10C" translatesAutoresizingMaskIntoConstraints="NO" id="SYb-oQ-JvO">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10C" translatesAutoresizingMaskIntoConstraints="NO" id="SYb-oQ-JvO" customClass="CardView" customModule="CardShuffler" customModuleProvider="target">
                                         <rect key="frame" x="167.5" y="0.0" width="79" height="200"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10C" translatesAutoresizingMaskIntoConstraints="NO" id="UlT-az-a4P">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10C" translatesAutoresizingMaskIntoConstraints="NO" id="UlT-az-a4P" customClass="CardView" customModule="CardShuffler" customModuleProvider="target">
                                         <rect key="frame" x="251.5" y="0.0" width="78.5" height="200"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10C" translatesAutoresizingMaskIntoConstraints="NO" id="lCa-wq-dKO">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10C" translatesAutoresizingMaskIntoConstraints="NO" id="lCa-wq-dKO" customClass="CardView" customModule="CardShuffler" customModuleProvider="target">
                                         <rect key="frame" x="335" y="0.0" width="79" height="200"/>
                                     </imageView>
                                 </subviews>

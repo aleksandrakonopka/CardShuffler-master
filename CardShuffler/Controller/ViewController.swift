@@ -11,14 +11,18 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var chosenCardLabel: UILabel!
-    @IBOutlet var cardsImages: [UIImageView]!
+    @IBOutlet var cardsImages: [CardView]!
     
     
     //TODO MAKE MODEL RESPONSIBLE FOR SHUFFLE, STORE ALL CARD TAIL, 5 CHOSEN CARDS WITH IMAGES OF THEM
     let cardPickerImplementation : CardPicker = CardPickerImpl()
+    let labelChangeImplemenetation: LabelChanger = LabelChangerImpl()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        for card in cardsImages{
+            card.viewTappedDelegate = self
+        }
         // Do any additional setup after loading the view.
     }
 
@@ -31,8 +35,15 @@ class ViewController: UIViewController {
         }
         print("print do commita")
     }
-    
-    //TODO CUSTOM IMAGEVIEWCARD SUBCLASS - WHEN CARD IS SELECTED LABEL CHANGES WHICH CARD IS SELECTED
-    
+}
+
+extension ViewController : ViewTapped{
+    func handleTap(tappedView: UIView) {
+        let viewWithImage = tappedView as! UIImageView
+        //labelChangeImplemenetation.updateTheLabel(text: viewWithImage.image!.accessibilityIdentifier!)
+        //chosenCardLabel.text = labelChangeImplemenetation.labelText
+        
+        chosenCardLabel.text = viewWithImage.image!.accessibilityIdentifier!
+    }
 }
 
