@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     
     //TODO MAKE MODEL RESPONSIBLE FOR SHUFFLE, STORE ALL CARD TAIL, 5 CHOSEN CARDS WITH IMAGES OF THEM
     let cardPickerImplementation : CardPicker = CardPickerImpl()
-    let labelChangeImplemenetation: LabelChanger = LabelChangerImpl()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,9 +39,6 @@ class ViewController: UIViewController {
 extension ViewController : ViewTapped{
     func handleTap(tappedView: UIView) {
         let viewWithImage = tappedView as! UIImageView
-        //labelChangeImplemenetation.updateTheLabel(text: viewWithImage.image!.accessibilityIdentifier!)
-        //chosenCardLabel.text = labelChangeImplemenetation.labelText
-        
         chosenCardLabel.text = viewWithImage.image!.accessibilityIdentifier!
     }
 }
