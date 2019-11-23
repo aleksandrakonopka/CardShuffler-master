@@ -25,10 +25,11 @@ class ViewController: UIViewController {
     @IBAction func shuffleButtonPressed(_ sender: UIButton) {
         //TODO SHUFFLE CARDS, PRESENT NEW 5 CARDS ON SCREEN
         cardPickerImplementation.get5Cards()
-        var pickedCards = cardPickerImplementation.picked5Cards
+        let pickedCards = cardPickerImplementation.picked5Cards
         for (index,imageView) in cardsImages.enumerated(){
-        imageView.image = UIImage(named: pickedCards[index])
+            imageView.image = UIImage(named: pickedCards[index])
         }
+        print("print do commita")
     }
     
     //TODO CUSTOM IMAGEVIEWCARD SUBCLASS - WHEN CARD IS SELECTED LABEL CHANGES WHICH CARD IS SELECTED

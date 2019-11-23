@@ -19,19 +19,19 @@
                                 <rect key="frame" x="0.0" y="215" width="414" height="200"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10C" translatesAutoresizingMaskIntoConstraints="NO" id="uW1-vS-S69">
-                                        <rect key="frame" x="0.0" y="0.0" width="79.000000000000114" height="200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="79" height="200"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10C" translatesAutoresizingMaskIntoConstraints="NO" id="8x5-Xz-imF">
-                                        <rect key="frame" x="84" y="0.0" width="78.500000000000114" height="200"/>
+                                        <rect key="frame" x="84" y="0.0" width="78.5" height="200"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10C" translatesAutoresizingMaskIntoConstraints="NO" id="SYb-oQ-JvO">
-                                        <rect key="frame" x="167.5" y="0.0" width="79.000000000000114" height="200"/>
+                                        <rect key="frame" x="167.5" y="0.0" width="79" height="200"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10C" translatesAutoresizingMaskIntoConstraints="NO" id="UlT-az-a4P">
-                                        <rect key="frame" x="251.5" y="0.0" width="78.500000000000114" height="200"/>
+                                        <rect key="frame" x="251.5" y="0.0" width="78.5" height="200"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10C" translatesAutoresizingMaskIntoConstraints="NO" id="lCa-wq-dKO">
-                                        <rect key="frame" x="335" y="0.0" width="79.000000000000114" height="200"/>
+                                        <rect key="frame" x="335" y="0.0" width="79" height="200"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
