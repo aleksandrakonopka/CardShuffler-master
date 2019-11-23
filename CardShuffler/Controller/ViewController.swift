@@ -19,9 +19,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        for card in cardsImages{
-            card.viewTappedDelegate = self
-        }
+        cardsImages.forEach {$0.viewTappedDelegate = self}
         // Do any additional setup after loading the view.
     }
 
@@ -36,9 +34,9 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController : ViewTapped{
-    func handleTap(tappedView: UIView) {
-        let viewWithImage = tappedView as! UIImageView
+extension ViewController : CardViewDelegate{
+    func handleTap(tappedView: UIImageView) {
+        let viewWithImage = tappedView
         chosenCardLabel.text = viewWithImage.image!.accessibilityIdentifier!
     }
 }

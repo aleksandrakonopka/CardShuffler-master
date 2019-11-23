@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F3EAFC423895DEA0090D1A3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3EAFC323895DEA0090D1A3 /* Model.swift */; };
+		1F3EAFC423895DEA0090D1A3 /* CardPickerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3EAFC323895DEA0090D1A3 /* CardPickerImpl.swift */; };
 		1FA5309723897D7C00485972 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA5309623897D7C00485972 /* CardView.swift */; };
 		F946F98D2389569D007106D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946F98C2389569D007106D0 /* AppDelegate.swift */; };
 		F946F98F2389569D007106D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946F98E2389569D007106D0 /* SceneDelegate.swift */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F3EAFC323895DEA0090D1A3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1F3EAFC323895DEA0090D1A3 /* CardPickerImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPickerImpl.swift; sourceTree = "<group>"; };
 		1FA5309623897D7C00485972 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		F946F9892389569D007106D0 /* CardShuffler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardShuffler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F946F98C2389569D007106D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		1F3EAFC223895D4A0090D1A3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1F3EAFC323895DEA0090D1A3 /* Model.swift */,
+				1F3EAFC323895DEA0090D1A3 /* CardPickerImpl.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 				F946F9912389569D007106D0 /* ViewController.swift in Sources */,
 				F946F98D2389569D007106D0 /* AppDelegate.swift in Sources */,
 				F946F98F2389569D007106D0 /* SceneDelegate.swift in Sources */,
-				1F3EAFC423895DEA0090D1A3 /* Model.swift in Sources */,
+				1F3EAFC423895DEA0090D1A3 /* CardPickerImpl.swift in Sources */,
 				1FA5309723897D7C00485972 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
